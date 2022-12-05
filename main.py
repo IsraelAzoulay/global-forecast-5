@@ -1,4 +1,4 @@
-# Eighth project -
+# Eighth project - Weather Forecast web app.
 import streamlit as st
 # Importing the module 'express' of the 'plotly' library for creating the line-graph.
 import plotly.express as px
