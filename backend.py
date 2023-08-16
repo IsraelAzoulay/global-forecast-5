@@ -1,10 +1,11 @@
 # The backend of the program.
 import requests
+import os
+from dotenv import load_dotenv
 
 
-# The api that the 'openweathermap.org' website created for me.
-API_KEY = "41c97556715dcc5d59b4d5485d18875b"
-
+load_dotenv()
+API_KEY = os.getenv("OPEN_WEATHER_API_KEY")
 
 def get_data(place, forecast_days):
     # The url of the api of the 'openweathermap.org' website.
