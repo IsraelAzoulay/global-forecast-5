@@ -24,7 +24,7 @@ Ensure you have the following installed on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/IsraelAzoulay/GlobalForecast5.git
+   git clone https://github.com/IsraelAzoulay/global-forecast-5.git
 
 ## Navigate to the project directory:
 
